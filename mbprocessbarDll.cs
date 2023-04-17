@@ -33,13 +33,13 @@ namespace MusicBeePlugin {
             mbApiInterface = (MusicBeeApiInterface)Marshal.PtrToStructure(apiInterfacePtr, typeof(MusicBeeApiInterface));
             about.PluginInfoVersion = PluginInfoVersion;
             about.Name = "MBprocessbar";
-            about.Description = "Display playing process in Process bar";
-            about.Author = "zzh1989829@gmail.com";
+            about.Description = "Adds playing progress in the taskbar ";
+            about.Author = "zzh1989829@gmail.com with fixes by TReKiE.net";
             about.TargetApplication = "Windows7";   // current only applies to artwork, lyrics or instant messenger name that appears in the provider drop down selector or target Instant Messenger
             about.Type = PluginType.General;
             about.VersionMajor = 1;  // your plugin version
             about.VersionMinor = 0;
-            about.Revision = 3;
+            about.Revision = 5;
             about.MinInterfaceVersion = MinInterfaceVersion;
             about.MinApiRevision = MinApiRevision;
             about.ReceiveNotifications = ReceiveNotificationFlags.PlayerEvents;
@@ -157,6 +157,9 @@ namespace MusicBeePlugin {
                     break;
                 case PlayState.Paused:
                     win7Processbar.State = ProgressBarState.Pause;
+                    break;
+                case PlayState.Stopped:
+                    win7Processbar.State = ProgressBarState.Normal;
                     break;
             }
         }   

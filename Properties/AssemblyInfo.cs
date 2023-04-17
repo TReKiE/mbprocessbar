@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MusicBee processbar plugin")]
-[assembly: AssemblyDescription("displays playing process in win7 taskbar")]
+[assembly: AssemblyDescription("Adds playing progress in the taskbar")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("SYSU")]
-[assembly: AssemblyProduct("MB plugin")]
-[assembly: AssemblyCopyright("zzh1989829@gmail.com")]
+[assembly: AssemblyCompany("trexion")]
+[assembly: AssemblyProduct("MBprocessbar")]
+[assembly: AssemblyCopyright("zzh1989829@gmail.com with fixes by TReKiE.net")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.4")]
-[assembly: AssemblyFileVersion("1.0.4")]
+[assembly: AssemblyVersion("1.0.5")]
+[assembly: AssemblyFileVersion("1.0.5")]

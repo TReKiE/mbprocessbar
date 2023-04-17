@@ -72,8 +72,8 @@ namespace wyDay.Controls {
                     if (ownerForm != null) {
                         if (Style != ProgressBarStyle.Marquee)
                             SetValueInTB();
-
-                        SetStateInTB();
+                        else
+                            SetStateInTB();
                     }
                 }
             }

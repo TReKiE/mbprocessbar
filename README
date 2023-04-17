@@ -1,26 +1,11 @@
 README
-	
-	This is a simple MusicBee(http://getmusicbee.com) plugin which
-	displays playing process at Windows7 taskbar
+
+	This is a simple MusicBee (http://getmusicbee.com) plugin which adds the playing progress into the taskbar 
 	
 Usage
 
-	1. 	Download the latest version at 
-		http://code.google.com/p/mbprocessbar/downloads/list
-	2. 	Move the DLL file to MB application instll folder 
-		such as C:/Program Files/MusicBee/Plugins
-	3. 	Enable the plugin at preference->plugins
-
-Note
-
-	1. 	To disable the plugin, disable it at the preference, then restart MusicBee
-	2. 	Might need bypass UAC if not running correctly
-	3. 	The title of MusicBee window must contain "MusicBee"
-	
-Website
-	
-	please visit http://code.google.com/p/mbprocessbar/
-	
-SVN
-
-	svn checkout http://mbprocessbar.googlecode.com/svn/trunk/ mbprocessbar-read-only
+	1.  Download the latest version from GitHub releases
+	2.  Extract DLL from the zip file to a location of your choice
+	3.  Open MusicBee, go to Preferences (Ctrl-O), choose Plugins category
+	4.  Click Add Plugin... button in the top corner, select the DLL that was extracted
+	5.  Close the Preferences window and you're done!
